@@ -1,0 +1,53 @@
+header{
+    background-color: #009908;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navutama{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 100px;
+}
+
+.pendidikan{
+    padding-top: 75px;
+}
+
+.materi{
+    padding-top: 75px;
+}
+.biodata{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.rincian{
+    text-align: justify;
+    padding-top: 50px;
+}
+.datadiri{
+    margin-left: 20px;
+}
+
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.kritik{
+    align-items: center;
+    justify-content: center;
+}
+
+.navkritik{
+    display: flex;
+    padding-top: 10px;
+}
+
