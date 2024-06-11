@@ -6,10 +6,27 @@ header{
 }
 
 .navutama{
-    padding-top: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+}
+.nav1{
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.pemilik{
+    padding-top: 0px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sosmed{
+    padding-right: 20px;
+}
+.sosial-media {
+    width: 30px; /* Sesuaikan ukuran logo sosial media */
+    height: 30px;
+    margin: 0 10px; /* Jarak antara logo sosial media */
 }
 
 .container{
@@ -17,16 +34,25 @@ header{
 }
 
 .pendidikan{
-    padding-top: 75px;
+    padding-top: 200px;
+}
+
+.tombolcv{
+    background-color: #ff4d00;
+    padding: 15px 40px;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 25px;
 }
 
 .materi{
     padding-top: 75px;
 }
 .biodata{
-    padding-top: 50px;
+    padding-top: 0px;
     display: flex;
     align-items: center;
+    padding-left: 50px;
 }
 
 .rincian{
@@ -34,7 +60,7 @@ header{
     padding-top: 50px;
 }
 .datadiri{
-    margin-left: 20px;
+    padding-left: 20px;
 }
 
 footer{
@@ -50,4 +76,3 @@ footer{
     display: flex;
     padding-top: 10px;
 }
-
